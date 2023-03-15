@@ -15,6 +15,3 @@ class Solution(object):
             mid=len(nums3)/2
             median=(nums3[int(mid-1)]+nums3[int(mid)])/2.0
         return median
-
-    print(findMedianSortedArrays(1, [1,3], [2]))
-    print(findMedianSortedArrays(1, [1, 2], [3,4]))
