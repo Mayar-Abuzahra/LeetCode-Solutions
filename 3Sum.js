@@ -12,8 +12,10 @@ var threeSum = function(nums) {
         let sum = nums[i] + nums[left] + nums[right];
         if(sum === 0){
           result.push([nums[i], nums[left], nums[right]]);
-          while(left < right && nums[left] === nums[left+1]) left++; // skip duplicate numbers
-          while(left < right && nums[right] === nums[right-1]) right--; // skip duplicate numbers
+          while(left < right && nums[left] === nums[left+1]) 
+            left++; // skip duplicate numbers
+          while(left < right && nums[right] === nums[right-1]) 
+            right--; // skip duplicate numbers
           left++;
           right--;
         } else if(sum < 0){
