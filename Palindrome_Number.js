@@ -10,7 +10,7 @@ var isPalindrome = function(x) {
             .reverse()
             .join('')
         )
-      if(reverse_num== x.toString())
+      if(reverse_num == x.toString())
         return true;
       return false;
 };
