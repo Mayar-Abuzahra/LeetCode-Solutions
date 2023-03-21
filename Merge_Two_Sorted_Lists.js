@@ -28,7 +28,7 @@ var mergeTwoLists = function(list1, list2) {
       }
       else{
         let newNode = new ListNode(list2.val)
-         out_ll.next = newNode
+        out_ll.next = newNode
         list2 = list2.next
       }
       out_ll = out_ll.next
