@@ -33,7 +33,7 @@ var mergeTwoLists = function(list1, list2) {
       }
       out_ll = out_ll.next
     }
-    //if there are more nodes either in l1 or l2
+    //if there are more nodes either in list1 or list2
     if(list1 != null)
       out_ll.next = list1
     else if(list2 != null)
