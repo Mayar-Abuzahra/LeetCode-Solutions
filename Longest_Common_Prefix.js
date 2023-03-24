@@ -1,8 +1,5 @@
 var longestCommonPrefix = function(strs) {
-  let max_sub_string_prefix = "";
-  let j = 0;
-  let k = strs.length - 1;
-  let flag = 1;
+  let max_sub_string_prefix = "", j=0, k=strs.length - 1, flag=1;
   let minimum_string_length = strs.reduce(function(a, b) {
     return a.length <= b.length ? a : b;
   }).length;
