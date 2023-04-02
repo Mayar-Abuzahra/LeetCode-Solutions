@@ -3,3 +3,4 @@
 ##### Programming Languages used:
 - JavaScript 💻
 - Python 🐱
+- Java
