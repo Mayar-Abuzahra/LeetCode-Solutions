@@ -4,3 +4,4 @@
 - Java ☕️
 - JavaScript 💻
 - Python 🐱
+#### To access the Database solutions, navigate to the "Database" folder.
